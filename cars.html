@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Cars | Our Luxurious Vehicles</title>
+    <link rel="stylesheet" href="CSS/cars.css">
+    <link rel="icon" type="image/x-icon" href="IMAGES/logo.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    
+</head>
+<body>
+
+    <!-- <div class="spinner-grow text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div> 
+    <header> -->
+         <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark position-sticky sticky-top top-0 left-0 border-bottom border-1 border-light">
+    <div class="container-fluid py-4 px-5">
+      <div>
+        <a class="navbar-brand" href="#"><img src="IMAGES/gradient-car-bg-removed3.png" alt="" height="45px"></a>
+      <button class="navbar-toggler bg-info text-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon border-info border-3"></span>
+      </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fs-3 fw-bolder text-light me-4 a" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3 fw-bolder text-light me-4 a" href="about.html" target="_blank">ABOUT</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link fs-3 fw-bolder text-light me-4 a" href="services.html" target="_blank">SERVICES</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link fs-3 fw-bolder text-light me-4 a" href="cars.html" target="_blank">CARS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3 fw-bolder text-light me-4 a" href="contact.html" target="_blank">CONTACT US</a>
+          </li>
+          
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <button class="btn btn-outline-danger me-2 col-4" type="submit">Sign Up</button>
+          <input class="form-control me-2 border-bottom border-2 border-dark" type="search" placeholder="Search" aria-label="Search">
+          
+        </form> -->
+      </div>
+    </div>
+  </nav>
+  <!-- navbar ends -->
+
+    <header class="container-fluid position-relative d-flex align-items-center">
+        <h1 class="text-light mx-auto d-flex justify-content-center align-items-center display-1 fw-bolder">OUR LUXURY CARS</h1>
+    </header>
+
+
+
+    <section class="container-fluid px-5 rtd">
+      <div class="row px-5 mx-5 mt-5 pt-5">
+        <div class="col-lg-6 col-12 mx-5 p-5 display-1 text-dark fw-light comfy">Comfy Cars For Rent</div>
+        <!-- <div class="col-lg-7 fs-3 fw-bold h1 mx-5 px-5 text-danger">MEET OUR TEAM</div> -->
+        <hr class="col-lg-7 mx-5 pt-5 text-danger" style="width: 90%;">
+      </div>
+
+      <div class="wrapper">
+        <!-- filter Items -->
+        <nav class="pb-5 mb-5 ">
+          <div class="items d-flex justify-content-center">
+            <span class="item active mx-2 fw-bold  border-danger border border-2" data-name="all">All</span>
+            <span class="item   mx-2 border-danger fw-bold border border-2" data-name="Limousine">Limousines</span>
+            <span class="item mx-2 border-danger border border-2" data-name="Tesla">Tesla</span>
+            <span class="item  mx-2 border-danger border border-2" data-name="Ferrari">Ferrari</span>
+            <span class="item mx-2 border-danger border border-2" data-name="Porsche">Porsche</span>
+          </div>
+        </nav>
+    </section>
+
+    
+      
+      <!-- filter Images -->
+    <div class="gallery container">
+  
+      <!-- <div class="row gx-5 image">
+        <div class=" col-lg-3 mb-3" data-name="Limousine">
+          <img src="./IMAGES/Vihecle-list-image-01 (1).jpg" class="col-12">
+          <div class="card-body text-center">
+              <h1 class="card-title display-2 my-3">Limousine</h1>
+              <p class="card-text display-5">
+                  <span class="display-3 fw-bold text-danger">$200</span>/hr
+              </p>
+              <div class="btn btn-outline-danger">Rent Now</div>
+          </div>
+      </div>
+      <div class=" col-lg-3 mb-3" data-name="Ferrari">
+        <img src="./IMAGES/Vihecle-list-image-02 (1).jpg" class="col-12">
+        <div class="card-body text-center">
+            <h1 class="card-title">Limousine</h1>
+            <p class="card-text display-3">
+                <span class="display-1 fw-bold text-danger">$200</span>/hr
+            </p>
+            <div class="btn btn-outline-danger">Rent Now</div>
+        </div>
+    </div>
+    <div class=" col-lg-3 mb-3">
+      <img src="./IMAGES/Vihecle-list-image-03 (1).jpg" class="col-12">
+      <div class="card-body text-center">
+          <h1 class="card-title">Limousine</h1>
+          <p class="card-text display-3">
+              <span class="display-1 fw-bold text-danger">$200</span>/hr
+          </p>
+          <div class="btn btn-outline-danger">Rent Now</div>
+      </div>
+  </div>
+  <div class=" col-lg-3 mb-3">
+    <img src="./IMAGES/Vihecle-list-image-04.jpg" class="col-12">
+    <div class="card-body text-center">
+        <h1 class="card-title">Limousine</h1>
+        <p class="card-text display-3">
+            <span class="display-1 fw-bold text-danger">$200</span>/hr
+        </p>
+        <div class="btn btn-outline-danger">Rent Now</div>
+    </div>
+  </div>
+      </div> -->
+
+        <div class="image mb-4" data-name="Limousine"><span><img src="./IMAGES/64e3707a15bfaa0011123cd8-ferrari-tailor-made-812-competizione-gtw-2.webp" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./IMAGES/649d5effff73dc0024751a3e-ferrari-sf90-xx-stradale2023-rullo-2.webp" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./IMAGES/photo-1580274455191-1c62238fa333.webp" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./IMAGES/black-sport-car-highway-drive-sunset_114579-5064.webp" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./IMAGES/photo-1584060622420-0673aad46076.webp" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./IMAGES/Vihecle-list-image-01 (1).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./IMAGES/Vihecle-list-image-02 (1).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./IMAGES/OIP3.jpeg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./IMAGES/photo-1615060363505-de228e3f7d82.webp" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./IMAGES/OIP (1).jpeg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./IMAGES/yellowcar.webp" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./IMAGES/rollsroyce-ghost-sports-car-supercar-sportcar-sleek-sport-car-performance-cars-luxury-car-automobile-vehicle-automotive-ai_819901-1645.webp" alt=""></span></div>
+         <div class="image mb-4" data-name="Limousine"><span><img src="./IMAGES/low-angle-white-modern-car-outdoors_23-2149385730 (1).webp" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./IMAGES/Vihecle-list-image-03 (1).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./IMAGES/isolated-realistic-metallic-blue-luxury-hybrid-modern-suv-car-from-left-front-angle-view_16145-17783.jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./IMAGES/luxury-sport-car-with-xenon-lights-front-view_114579-5062.webp" alt=""></span></div>
+        <!-- <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (5).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (5).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (5).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (5).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (6).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (6).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (6).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (6).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (7).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (7).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (7).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (7).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (8).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (8).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (8).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (8).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (9).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (9).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (9).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (9).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (10).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (10).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (10).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (10).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (11).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (11).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (11).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (11).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (12).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (12).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (12).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (12).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (13).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (13).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (13).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (13).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (14).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (14).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (14).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (14).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (14).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (15).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (15).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Mouse/mouse (15).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (15).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (16).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/keyboards/kb (16).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Laptop/Hp/hp (17).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (1)6.jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/keyboards/kb (17).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/Laptop/Hp/hp (18).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/keyboards/kb (1).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (17).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Limousine"><span><img src="./Static/img/Laptop/Hp/hp (19).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Tesla"><span><img src="./Static/img/Charger/charger (18).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="Ferrari"><span><img src="./Static/img/Laptop/Hp/hp (20).png" alt=""></span></div>
+        <div class="image mb-4" data-name="Porsche"><span><img src="./Static/img/Charger/charger (19).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="hp"><span><img src="./Static/img/Laptop/Hp/hp (32).png" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (20).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="hp"><span><img src="./Static/img/Laptop/laptop (23).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (21).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="hp"><span><img src="./Static/img/Laptop/Hp/hp (34).png" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (22).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="hp"><span><img src="./Static/img/Laptop/Hp/hp (66).png" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (23).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="hp"><span><img src="./Static/img/Laptop/Hp/hp (63).png" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (24).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="hp"><span><img src="./Static/img/Laptop/Hp/hp (64).png" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (25).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="hp"><span><img src="./Static/img/Laptop/Hp/hp (56).png" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (26).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="hp"><span><img src="./Static/img/Laptop/laptop (24).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (27).jpg" alt=""></span></div>
+        <div class="image mb-4" data-name="charger"><span><img src="./Static/img/Charger/charger (28).jpg" alt=""></span></div>  -->
+        
+      
+      </div>
+    </div>
+    <!-- fullscreen img preview box-->
+    <div class="preview-box">
+      <div class="details">
+        <span class="title"><p></p></span>
+        <span class="ico fas fa-times"></span>
+      </div>
+      <div class="image-box"><img src="./Static/img/after.jpg" alt=""></div>
+    </div>
+    <div class="shadow"></div>
+
+
+
+   
+   </div>
+
+   <!-- Footer -->
+
+   <div class="container-fluid ftr  p-lg-3 p-2">
+    <div class="container p-lg-3 p-3">
+      <div class="row gx-5 text-light px-lg-5 px-2 mb-lg-0 my-5 ">
+        <div class="col-lg-3 col-sm-12 col-12 text-j px-lg-5 px-3 lh">
+          <img src="IMAGES/gradient-car-bg-removed3.png" alt="Website's Logo" height="70px" class="ftr-logo d-md-inline d-inline">
+          
+          <p class=" fs-5 fw-bold mt-5">Plan your trip with auto leasing. Rent a car online today & enjoy the best deals, rates and accesories</p>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6 lh mb-lg-0 mt-5">
+          <h3 class="fs-3 fw-bold mb-lg-5 mb-3 mt-lg-5">Rental Vehicles</h3>
+          <span><a href="cars.html" class="text-decoration-none text-light fs-3 a">Cars & Crossovers</a></span><br>
+          <span><a href="cars.html" class="text-decoration-none text-light fs-3 a">Luxury cars</a></span><br>
+          <span><a href="cars.html" class="text-decoration-none text-light fs-3 a">Vans & SUV</a></span><br>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6 lh mb-lg-0 mt-5">
+          <h3 class="fs-3 fw-bold mb-lg-5 mb-3 mt-lg-5">About Us</h3>
+          <span><a href="about.html" class="text-decoration-none text-light fs-3 a">Location</a></span><br>
+          <span><a href="about.html" class="text-decoration-none text-light fs-3 a">Days</a></span><br>
+          <span><a href="about.html" class="text-decoration-none text-light fs-3 a">Reservation</a></span><br>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-lg-5 my-5 col-sm-12 col-12 lh">
+          <h3 class="fs-3 fw-bold mb-lg-5 mb-3 mt-lg-5">Contact Us</h3>
+          <i class="bi bi-house-fill me-5 text-info icon"></i><span class="text-decoration-none text-light fs-4"> 15, Aso Rock road, Wuje, Abuja</span><br>
+          <i class="bi bi-telephone-fill me-5 text-light icon"></i><span><a href="tel : +234 9077829514" class="text-decoration-none text-light fs-4 a">(+234) 9077829514</a></span><br>
+          <i class="bi bi-envelope-fill me-5 text-danger icon"></i><span><a href="mailto: jewel4techh@gmail.com" class="text-decoration-none text-light fs-4 a"> jewel4techh@ gmail.com</a></span><br>
+        </div>
+        <hr class="text-danger my-3 ">
+        <span class="fs-5 fw-bold p-lg-5 py-md-4 py-2 px-5">© 2023 Auto Leasing. All rights reserved.</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+    
+   <script src="./JS/shop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

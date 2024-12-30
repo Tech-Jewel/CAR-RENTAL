@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima:wght@600&family=Josefin+Sans:wght@500&family=Kanit:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima:wght@600&family=Dancing+Script:wght@600&family=Josefin+Sans:wght@500&family=Kanit:wght@800&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar{
+    font-family: 'Josefin Sans', serif;
+    z-index: 99999;
+}
+.a{
+    transition-duration: .8s;
+}
+.a:hover{
+    color: dodgerblue !important;
+}
+
+/* Header */
+.header{
+    width: 100%;
+    min-height: 100vh;
+    font-family:'Josefin Sans', sans-serif;
+    /* padding: 180px 100px; */
+    background-image: url(../IMAGES/page-1_slide01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -999;
+    animation-name: headerBg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes headerBg {
+    0%{
+    background-image: url(../IMAGES/page-1_slide01.jpg);
+    }
+    50%{
+    background-image: url(../IMAGES/sports-car-driving-asphalt-road-night-generative-ai_188544-8052\ \(1\).webp);
+    }
+    100%{
+        background-image: url(../IMAGES/peter-broomfield-m3m-lnR90uM-unsplash.jpg);
+    }
+}
+
+#c1{
+    background-color: rgba(28, 27, 27, 0.714);
+}
+.wlcm{
+    border-bottom: 1.75px solid red;
+    border-bottom-width: 10% ;
+}
+#c1 h1{
+    /* font-size: 800%; */
+    font-family: "Josefin Sans", serif;
+}
+#c1 h2{
+    font-family: "Dancing script", cursive;
+}
+
+.cc{
+    animation-name: slideInLeft;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+.abt-us{
+    gap: 30px;
+    min-height: 100vh;
+}
+.c1 h2, .c2 h2, .c3 h2{
+    font-family: 'Dancing Script', cursive;
+}
+.fr2{
+    font-family: "Poppins", serif;
+}
+.fr1 h2{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    
+}
+.flx{
+    gap: 10px;
+}
+.a1, .a2,.a3 , .a4{
+    height: 200px;
+    width: 40%;
+    border-radius: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a2, .a3{
+    width: 60%;
+}
+.a1{
+    background-image: url(../IMAGES/OIP3.jpeg);
+}
+.a2{
+    background-image: url(../IMAGES/black-luxury-sport-sedan-car-standing-race-trace_114579-1169.webp);
+}
+.a3{
+    background-image: url(../IMAGES/03.jpg);
+}
+.a4{
+    background-image: url(../IMAGES/beautiful-car-commercial-night_23-2148283413.webp);
+}
+/* Header styles end */
+
+/* ERide */
+.rtd{
+    background-color: rgb(241, 241, 241);
+    font-family: "Poppins";
+}
+.chf1,.chf2,.chf3{
+    height: 4in;
+    background-image: url(../IMAGES/h1-team-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.chf2{
+    background-image: url(../IMAGES/h1-team-img-2.jpg);
+}
+.chf3{
+    background-image: url(../IMAGES/h1-team-img-3.jpg);
+}
+/* Vehicles Section */
+.rv,.ts{
+    font-family: "Poppins";
+}
+.img1,.img2,.img3{
+    height: 5in;
+    /* height: 3.2in; */
+    /* border: 2px solid red; */
+}
+.img1,.img2,.img3{
+    width: 100%;
+    
+    background-image: url(../IMAGES/Main-home-vehicle-list-img-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: changeBg;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    transition-duration: 1s;
+    /* background-attachment: fixed; */
+}
+#img1, #img2, #img3{
+    transition: 0.5s;
+}
+#img1 p, #img2 p, #img3 p{
+    opacity: 0;
+    transform: scale(0);
+    transition: .8s;
+}
+#img1:hover .img1, #img2:hover .img2, #img3:hover .img3{
+    box-shadow: 0 0 0 250px rgba(0, 0, 0, 0.905) inset;
+}
+#img1:hover p, #img2:hover p, #img3:hover p{
+    opacity: 1;
+    transform: scale(1);
+} 
+.img2{
+    background-image: url(../IMAGES/Main-home-vehicle-list-img-04.jpg);
+    animation-name: changeBg2;
+}
+.img3{
+    background-image: url(../IMAGES/Main-home-vehicle-list-img-06.jpg);
+    animation-name: changeBg3;
+}
+
+/* @keyframes changeBg {
+    0% {
+        background-image: url(../IMAGES/blue-jeep-parking-public-zone_114579-4042.webp);
+    }
+
+    50% {
+        background-image: url(../IMAGES/black-luxury-sport-sedan-car-standing-race-trace_114579-1169.webp);
+    }
+    100% {
+        background-image: url(../IMAGES/OIP.jpeg);
+    }
+}
+@keyframes changeBg2 {
+    0% {
+        background-image: url(../IMAGES/02.jpg);
+    }
+
+    50% {
+        background-image: url(../IMAGES/red-mini-coupe-driving-highway-with-high-speed_114579-4060.webp);
+    }
+    100% {
+        background-image: url(../IMAGES/low-angle-white-modern-car-outdoors_23-2149385730.webp);
+    }
+}
+@keyframes changeBg3 {
+    0% {
+        background-image: url(../IMAGES/blue-family-business-spotrs-hatchback-car-sunset-business-success-concept_308547-2853.webp);
+    }
+
+    50% {
+        background-image: url(../IMAGES/About.cb4e334634e6167d834e.jpg);
+    }
+    100% {
+        background-image: url(../IMAGES/campbell-3ZUsNJhi_Ik-unsplash.jpg.crdownload);
+    }
+} */
+/* Vehicles section ends */
+
+/* Why rent section */
+.why{
+    height: fit-content;
+    background-image: url(../IMAGES/luxurious-car-parked-highway-with-illuminated-headlight-sunset_181624-60607.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.why-inner{
+    background-color: rgba(20, 20, 20, 0.714);
+}
+.w{
+    font-family: "Dancing Script";
+}
+.wy{
+    font-family: "Poppins";
+    text-align: justify;
+}
+/* Why rent section ends */
+
+/* Testimonials */
+.test{
+    background-color: aliceblue;
+}
+.bq{
+    font-family: "Poppins";
+    text-align: justify;
+}
+.x h3{
+    font-family: "Josefin Sans";
+}
+.test{
+    justify-content: center;
+}
+
+/* Form */
+.re-form{
+    background-image: url(../IMAGES/back-red-modern-sport-car_110488-12\ \(1\).webp);
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    font-family: Poppins;
+    padding: 70px;
+    /* margin: 20px auto; */
+}
+.bg-frm{
+    background-color: rgba(249, 249, 249, 0.168);
+    /* margin: 30px 70px; */
+}
+.bg-d{
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.frm{
+    height: 50px;
+}
+input:focus, textarea:focus{
+    border: none;
+    outline: none;
+}
+
+/* Pickup section */
+
+/* Pickup section ends */
+
+
+/* Footer */
+.ftr{
+    font-family: Poppins;
+    background-color: rgb(23, 23, 23);
+}
+.lh{
+    line-height: 30px;
+}
+.icon{
+    font-size: 15px;
+}
+.a:hover{
+    color: dodgerblue !important;  
+}
+.text-j{
+    text-align: justify;
+}
+
+
+/* Footer ends */
+
+
+/* @media only screen and( max-width:575px) {
+    .header{
+        padding: 0px;
+    }
+    .cc{
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .cc h1 span{
+        font-size: 20px !important;
+    }
+} */
+/* font */
+.js{
+    font-family: 'Josefin Sans', serif;
+}
+.ds{
+    font-family: "Dancing Script", cursive;
+}
+.pp{
+    font-family: "Poppins", serif;
+}

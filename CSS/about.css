@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima:wght@600&family=Josefin+Sans:wght@500&family=Kanit:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima:wght@600&family=Dancing+Script:wght@600&family=Josefin+Sans:wght@500&family=Kanit:wght@800&family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    font-family: 'Josefin Sans', serif;
+    z-index: 9990;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    padding: 40px;
+    background-image: url(../IMAGES/page-1_slide01.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -990;
+}
+header h1{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    margin: 20px auto;
+    font-family: "Josefin Sans", serif;
+    animation-name: about;
+    animation-duration: 2s;
+    /* animation-delay: s; */
+}
+@keyframes about {
+    from {transform: translateY(-80px);}
+   to {transform: translateY(0px);}
+}
+.abt-us{
+    gap: 30px;
+    min-height: 100vh;
+}
+.fr1 h2{
+    font-family: 'Josefin Sans', serif;
+    display: flex;
+    justify-content: center;
+}
+.fr2{
+    font-family: serif;
+}
+.fr2 h2{
+    text-align: justify;
+    font-style: italic;
+    margin: 100px auto;
+}
+.flx{
+    gap: 10px;
+}
+.a1, .a2,.a3 , .a4{
+    height: 200px;
+    width: 40%;
+    border-radius: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a2, .a3{
+    width: 60%;
+}
+.a1{
+    background-image: url(../IMAGES/OIP3.jpeg);
+}
+.a2{
+    background-image: url(../IMAGES/black-luxury-sport-sedan-car-standing-race-trace_114579-1169.webp);
+}
+.a3{
+    background-image: url(../IMAGES/03.jpg);
+}
+.a4{
+    background-image: url(../IMAGES/beautiful-car-commercial-night_23-2148283413.webp);
+}
+
+
+.chf1,.chf2,.chf3{
+    height: 4in;
+    background-image: url(../IMAGES/h1-team-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+    transform: scale(1);
+}
+.chf2{
+    background-image: url(../IMAGES/h1-team-img-2.jpg);
+}
+.chf3{
+    background-image: url(../IMAGES/h1-team-img-3.jpg);
+}
+.chf1:hover,.chf2:hover,.chf3:hover{
+    transform: scale(1.1);
+    margin-bottom: 50px;
+}
+
+/* Counter */
+.counter{
+    background-color: rgba(224, 222, 222, 0.837);
+    background-image: url(../IMAGES/black-limousine-with-word-chrysler-side_670382-8751.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+.faq{
+    background-color: aliceblue;
+}
+/* Footer */
+.ftr{
+    font-family: Poppins;
+    background-color: rgb(23, 23, 23);
+}
+.lh{
+    line-height: 30px;
+}
+.icon{
+    font-size: 15px;
+}
+.a:hover{
+    color: dodgerblue !important;  
+}
+.text-j{
+    text-align: justify;
+}
+
+
+/* Footer ends */
+/* Font */
+.js{
+    font-family: 'Josefin Sans', serif;
+}
+.ds{
+    font-family: "Dancing Script", cursive;
+}
+.pp{
+    font-family: "Poppins", serif;
+}
