@@ -151,7 +151,7 @@
     font-family: "Poppins";
 }
 .img1,.img2,.img3{
-    height: 5in;
+    height: 4in;
     /* height: 3.2in; */
     /* border: 2px solid red; */
 }
@@ -348,3 +348,4 @@ input:focus, textarea:focus{
 .pp{
     font-family: "Poppins", serif;
 }
+
